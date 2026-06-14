@@ -60,3 +60,8 @@ resource "azurerm_virtual_machine" "vm" {
     disable_password_authentication = true
   }
 }
+
+
+resource local {
+  name = "newline"
+}
